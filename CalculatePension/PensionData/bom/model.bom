@@ -1,0 +1,26 @@
+
+package cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata;
+
+
+public class PensionData
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "PensionData"
+        property "de.generated" "true"
+{
+    public double gratuity
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Gratuity"
+                property update "true";
+    public double monthlyPension
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "MonthlyPension"
+                property update "true";
+    public PensionData(double gratuity, double monthlyPension)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public PensionData()
+                property "dataio.default" "true";
+}
+

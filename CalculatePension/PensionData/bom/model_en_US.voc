@@ -1,0 +1,12 @@
+
+# cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData#concept.label = PensionData
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.PensionData(double,double)#phrase.navigation = a new {PensionData} where {0, Gratuity} {1, MonthlyPension}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.gratuity#phrase.action = set the Gratuity of {this} to {Gratuity}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.gratuity#phrase.addition_setter = add {Gratuity} to the Gratuity of {this}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.gratuity#phrase.navigation = {Gratuity} of {this}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.gratuity#phrase.subtraction_setter = subtract {Gratuity} from the Gratuity of {this}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.monthlyPension#phrase.action = set the MonthlyPension of {this} to {MonthlyPension}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.monthlyPension#phrase.addition_setter = add {MonthlyPension} to the MonthlyPension of {this}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.monthlyPension#phrase.navigation = {MonthlyPension} of {this}
+cp4admin.calculatepensionandgratuitymodel.calculatepension.pensiondata.PensionData.monthlyPension#phrase.subtraction_setter = subtract {MonthlyPension} from the MonthlyPension of {this}
